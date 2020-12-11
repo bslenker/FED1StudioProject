@@ -10,6 +10,7 @@ header {
 main {
     background-color: lightgray;
     border: 2px solid, black;
+    padding: 4px 6px 4px 6px;
 }
 
 h1 {
@@ -24,6 +25,7 @@ ul#horizontalList {
     width: auto;
     height: auto;
     border: 2px solid black;
+    background-color: lightblue;
 }
 
     ul#horizontalList li {
@@ -31,6 +33,8 @@ ul#horizontalList {
         text-decoration: none;
         justify-content:flex-start;
         padding: 30px;
+        
+
     }
     ul#horizontalList a:hover, ul#horizontalList a:active, ul#horizontalList a:focus {
         background-color:ghostwhite;
@@ -50,10 +54,11 @@ ul#horizontalList {
     text-align: left;
 }
 
+
+
 .copy {
-    text-align:right;
-    margin:0 0 0 700px;
-           
+    text-align: right;
+    float: right; 
 }
 .contactList {
     text-align: center;

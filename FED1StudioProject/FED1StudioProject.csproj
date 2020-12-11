@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\cloudy day_flower.jpg" />
     <Content Include="stylesheets\contact.css" />
     <Content Include="stylesheets\classes.css" />
     <Content Include="Classes.html" />
@@ -90,7 +91,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>

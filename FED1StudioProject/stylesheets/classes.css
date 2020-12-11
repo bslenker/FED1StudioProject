@@ -11,6 +11,7 @@ header {
 main {
     background-color: lightgray;
     border: 2px solid, black;
+    padding: 4px 6px 4px 6px;
 }
 
 h1 {
@@ -26,6 +27,7 @@ ul#horizontalList {
     width: auto;
     height: auto;
     border: 2px solid black;
+    background-color: lightblue;
 }
 
     ul#horizontalList li {
@@ -50,5 +52,5 @@ ul#horizontalList {
 
 .copy {
     text-align: right;
-    margin: 0 0 0 700px;
+    float:right;
 }
