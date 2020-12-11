@@ -1,25 +1,80 @@
 ﻿body {
-
 }
 
 header {
     background-color: lightgray;
+    border: 2px solid black;
+    padding: 5px;
 }
 
 main {
     background-color: lightgray;
+    border: 2px solid, black;
 }
 
 h1 {
     color: black;
     font-size: 30px;
 }
-ul#horizontal-list {
-    min-width: 696px;
+
+ul#horizontalList {
+    min-width: 500px;
     list-style: none;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
 }
 
-    ul#horizontal-list li {
+    ul#horizontalList li {
         display: inline;
+        text-decoration: none;
+        justify-content: flex-start;
+        padding: 30px;
     }
+
+    ul#horizontalList a:hover, ul#horizontalList a:active, ul#horizontalList a:focus {
+        background-color: ghostwhite;
+        color: blue;
+    }
+.footerList {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.rights {
+    text-align: left;
+}
+
+.copy {
+    text-align: right;
+    margin: 0 0 0 700px;
+}
+    /*
+nav a {
+    font-weight: bold;
+    color: black;
+}
+
+nav a:hover, nav a:active, nav a:focus {
+    text-decoration: none;
+}
+
+nav ul {
+    background-color: steelblue;
+    padding: 0;
+    border-top: 2px dotted steelblue;
+    border-bottom: 2px dotted steelblue;
+}
+
+nav li:hover {
+    background-color: blue;
+    color: white;
+}
+
+nav ul li a {
+    padding: .4em 1em;
+    list-style: none;
+}
+        */
