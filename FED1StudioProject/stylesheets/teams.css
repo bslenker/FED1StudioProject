@@ -5,10 +5,11 @@ header {
     background-color: lightgray;
     border: 2px solid black;
     padding: 5px;
+    color: darkgreen;
 }
 
 main {
-    background-color: lightgray;
+    background-color: rgb(180,132,132);
     border: 2px solid, black;
 }
 
