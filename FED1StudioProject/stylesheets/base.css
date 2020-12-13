@@ -1,0 +1,232 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+/*font-family: 'Nunito Sans', sans-serif;*/
+
+body {
+    margin: 7px 7px 7px 7px;
+    background: url('../images/cloudy day_flower.jpg') no-repeat center center fixed;
+    background-size: auto;
+}
+
+header {
+    background-color: #fefefe;
+    border: 2px solid black;
+    padding: 5px;
+    color: darkslategray;
+}
+
+    header h1, header p {
+        margin: 10px 0 10px 125px;
+    }
+
+main {
+    background-color: rgba(211,211,211, .75);
+    background-size: auto;
+    border: 2px solid, black;
+    padding: 4px 6px 4px 6px;
+}
+
+h1 {
+    text-align: justify;
+    color: darkslategrey;
+    font-size: 30px;
+}
+
+#headerNav {
+    margin-top: 10px;
+}
+
+ul#horizontalList {
+    min-width: 500px;
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: auto;
+    height: auto;
+    border-top: 2px solid black;
+    margin-bottom: 0px;
+    margin-top: 2px
+}
+
+    ul#horizontalList li {
+        display: inline;
+        justify-content: flex-start;
+        padding: 0 30px 0 30px;
+    }
+
+        ul#horizontalList li a {
+            text-decoration: none;
+        }
+
+    ul #horizontalList a:hover, ul#horizontalList a:active, ul#horizontalList a:focus {
+        background-color: ghostwhite;
+        color: blue;
+        text-decoration: none;
+    }
+
+.headingStyle {
+    text-align: center;
+    color: black;
+}
+
+.footerList {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: rgba(211,211,211, .65);
+}
+
+.rights {
+    text-align: left;
+}
+
+/*.copy {
+    text-align: right;
+    float: right;
+}*/
+.contactList {
+    text-align: center;
+    padding: 30px 250px 50px 250px;
+}
+
+    .contactList a:visited a:hover a:active :focus {
+        color: darkblue;
+    }
+
+    .contactList div {
+        margin: 10px 10px 0 0;
+        padding: 10px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+
+#headerOverlay {
+    background-image: url('../images/BBF Logo.PNG');
+    background-repeat: no-repeat;
+    background-size: 110px;
+    background-position: 2% inherit;
+    padding: 1em;
+}
+
+.socialLinks {
+    text-align: right;
+}
+
+    .socialLinks a {
+        padding-right: 15px;
+        text-decoration: none;
+    }
+
+#teamLeftColumn {
+    width: 77%;
+    border-right: 2px solid black;
+}
+
+    #teamLeftColumn h2 {
+        text-align: center;
+        font: bold;
+    }
+
+#teamRightColumn {
+    float: right;
+    width: 23%
+}
+
+    #teamRightColumn h2 {
+        text-align: center;
+        font: bold;
+    }
+
+    #teamRightColumn ul li {
+        padding: 5px 0 5px 0;
+        text-decoration: none;
+    }
+
+#leadershipList img {
+    border-radius: 50%;
+}
+
+#teamRightColumn ul li a:hover, a:active, a:focus {
+    color: blue;
+    text-decoration: underline;
+}
+
+#teamRightColumn a {
+    text-decoration: none;
+}
+
+#leadershipList {
+    padding-top: 0;
+    display: inline-block;
+}
+
+    #leadershipList p {
+        text-align: justify;
+        font-size: 22px;
+    }
+
+    #leadershipList h3 {
+        margin: 3px;
+        display: block
+    }
+
+.leadershipDescription {
+    margin: 10px;
+    float: right;
+}
+
+    .leadershipDescription img {
+        float: left;
+        padding-right: 12px;
+    }
+
+.indexAbout h2 {
+    text-decoration: underline;
+}
+
+.indexAbout img {
+    float: left;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.indexAbout {
+    margin-left: 15px;
+    float: right;
+}
+
+#indexOffset {
+    width: 85%;
+}
+
+    #indexOffset h3 {
+        text-align: center;
+        font-size: large;
+    }
+
+    /*#indexOffset section {
+        width: 95%;
+        margin: 0;
+    }*/
+
+    #indexOffset h2 {
+        text-align: center;
+    }
+
+#indexTractor h3 p {
+    float: right;
+}
+
+#indexPig {
+    float: right;
+    height: 75px;
+    margin-left: 20px;
+}
+
+#eddieTractor {
+    padding-left: 15px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}

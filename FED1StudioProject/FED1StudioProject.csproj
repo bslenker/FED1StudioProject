@@ -67,11 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\220px-Tom_Lester.jpg" />
+    <Content Include="images\BBF Logo.PNG" />
     <Content Include="images\cloudy day_flower.jpg" />
+    <Content Include="images\eddie albert tomatoes.jpg" />
+    <Content Include="images\eddie tractor.jpg" />
+    <Content Include="images\Eva_Gabor.jpg" />
+    <Content Include="images\green acres cast.jpg" />
+    <Content Include="images\green-acres-tv-show-eddie-albert-eva_pig.jpg" />
     <Content Include="stylesheets\contact.css" />
     <Content Include="stylesheets\classes.css" />
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
+    <Content Include="stylesheets\base.css" />
     <Content Include="stylesheets\index.css" />
     <Content Include="Team.html" />
     <Content Include="index.html" />

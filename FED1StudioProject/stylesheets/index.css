@@ -1,5 +1,7 @@
 ﻿body {
     margin: 7px 7px 7px 7px;
+    background: url('../images/cloudy day_flower.jpg') no-repeat center center fixed;
+    background-size: auto;
 
 }
 
@@ -11,8 +13,8 @@ header {
 }
 
 main {
-    background-image: url('../images/cloudy day_flower.jpg') !important;
-    background-color: #cccccc;
+    /*background: url('../images/cloudy day_flower.jpg') no-repeat content-box fixed;*/
+    background-size: auto;
     border: 2px solid, black;
     padding: 4px 6px 4px 6px;
 }
@@ -57,30 +59,3 @@ ul#horizontalList {
     text-align: right;
     float: right;
 }
-    /*
-nav a {
-    font-weight: bold;
-    color: black;
-}
-
-nav a:hover, nav a:active, nav a:focus {
-    text-decoration: none;
-}
-
-nav ul {
-    background-color: steelblue;
-    padding: 0;
-    border-top: 2px dotted steelblue;
-    border-bottom: 2px dotted steelblue;
-}
-
-nav li:hover {
-    background-color: blue;
-    color: white;
-}
-
-nav ul li a {
-    padding: .4em 1em;
-    list-style: none;
-}
-        */
