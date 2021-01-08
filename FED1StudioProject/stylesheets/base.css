@@ -38,7 +38,13 @@ h1 {
 
 #headerNav {
     margin-top: 10px;
+
 }
+#headerNav ul li a.active-page {
+    background-color:lightgray;
+}
+
+
 
 ul#horizontalList {
     min-width: 500px;
@@ -49,7 +55,8 @@ ul#horizontalList {
     height: auto;
     border-top: 2px solid black;
     margin-bottom: 0px;
-    margin-top: 2px
+    margin-top: 2px;
+
 }
 
     ul#horizontalList li {
@@ -269,7 +276,11 @@ ul#horizontalList {
 }
 .card {
     margin:15px;
-    border: 1px solid black;
+    border: 3px solid black;
+}
+
+.card:hover {
+    border-color: purple;
 }
 .description {
     width: 235px;
@@ -298,8 +309,15 @@ table {
 td, th {
     font-size: 1.25em;
     padding: .3em;
+    font: bold;
 }
 tbody tr:nth-child(even) {
     background-color:darkgray;
-}
 
+}
+tbody tr:nth-child(odd) {
+    background-color: floralwhite;
+}
+tfoot {
+    background-color: gray;
+}
