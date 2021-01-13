@@ -117,7 +117,7 @@
             </section>
         </article>
         <section class="mainWrap">
-            <h1><a name="Butchering">Butchering - Class List</a></h1>
+            <h1><a id="Butchering">Butchering - Class List</a></h1>
             <div>
                 <table>
                     <thead>
@@ -158,7 +158,7 @@
                     </tfoot>
                 </table>
             </div>
-            <h1><a name="Gardening">Gardening - Class List</a></h1>
+            <h1><a id="Gardening">Gardening - Class List</a></h1>
             <div>
                 <table>
                     <thead>
@@ -199,7 +199,7 @@
                     </tfoot>
                 </table>
             </div>
-            <h1><a name="Farm Mech">Farm Mechanics - Class List</a></h1>
+            <h1><a id="Farm Mech">Farm Mechanics - Class List</a></h1>
             <div>
                 <table>
                     <thead>
@@ -240,7 +240,7 @@
                     </tfoot>
                 </table>
             </div>
-            <h1><a name="Irrigation">Farm Irrigation Tactics - Class List</a></h1>
+            <h1><a id="Irrigation">Farm Irrigation Tactics - Class List</a></h1>
             <div>
                 <table>
                     <thead>
@@ -281,7 +281,7 @@
                     </tfoot>
                 </table>
             </div>
-            <h1><a name="Arborism">Arborist - Class List</a></h1>
+            <h1><a id="Arborism">Arborist - Class List</a></h1>
             <div>
                 <table>
                     <thead>
@@ -322,7 +322,7 @@
                     </tfoot>
                 </table>
             </div>
-            <h1><a name="Homested">Homesteading - Class List</a></h1>
+            <h1><a id="Homested">Homesteading - Class List</a></h1>
             <div>
                 <table>
                     <thead>
@@ -369,5 +369,48 @@
         <p class="rights">All Rights Reserved 2020<span class="copy">&copy;</span></p>
 
     </footer>
+
+    <!-- Classes Side Nav - button -->
+    <div id="classes-btn" class="button" onclick="openClassesNav()">
+        <span class="vertical-text">Classes Available</span>
+    </div>
+
+    <!-- Classes Side Nav - Container for the links -->
+
+    <div class="sidenav" id="classes-nav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeClassesNav()">&times;</a>
+        <a href="#Butchering">Butchering</a>
+        <a href="#Gardening">Gardening</a>
+        <a href="#Farm Mech">Farm Mechanics</a>
+        <a href="#Irrigation">Irrigation</a>
+        <a href="#Arborism">Arborism</a>
+        <a href="#Homsteading">Homesteading</a>
+    </div>
+
+    <script type="text/javascript">
+        //function toggleNav() {
+        //    let navList = document.getElementById('nav-list');
+        //    navList.classList.toggle('expanded');//toggle turns on/off, this is toggling the expanded class
+
+        //    //toggle hamburger menu close button
+        //    let btnMenu = document.getElementById('menu-btn');
+        //    if (navList.classList.contains('expanded')) {
+        //        btnMenu.innerHTML = "&times;";
+        //    }//end if
+        //    else {
+        //        btnMenu.innerHTML = "&#9776;";
+        //    }//end else
+        //}//end toggleNav()
+
+        function openClassesNav() {
+            document.getElementById('classes-btn').style.display = 'none';
+            document.getElementById('classes-nav').style.width = '250px';
+        }//end openClassesNav()
+
+        function closeClassesNav() {
+            document.getElementById('classes-btn').style.display = 'block';
+            document.getElementById('classes-nav').style.width = '0';
+        }//end closeClassesNav()
+    </script>
 </body>
 </html>
