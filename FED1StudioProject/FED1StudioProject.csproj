@@ -68,7 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\220px-Tom_Lester.jpg" />
+    <Content Include="images\Admin-Assistant.jpg" />
     <Content Include="images\BBF Logo.PNG" />
+    <Content Include="images\Bobby Water.jpeg" />
     <Content Include="images\butcher no face.jfif" />
     <Content Include="images\Butcher stock.png" />
     <Content Include="images\butcher.jpg" />
@@ -84,8 +86,12 @@
     <Content Include="images\green-acres-tv-show-eddie-albert-eva_pig.jpg" />
     <Content Include="images\irrigation-systems-vegetable-garden.jpg" />
     <Content Include="images\livestock with vet.jpg" />
+    <Content Include="images\Operations-Lead.jpg" />
     <Content Include="images\Orchard.jpg" />
+    <Content Include="images\Pauly-Shore.jpg" />
     <Content Include="images\repairing-old-tractor-4989860.jpg" />
+    <Content Include="images\Sales - Kansas.jpg" />
+    <Content Include="images\Sales-Lead.jpg" />
     <Content Include="js\jquery.js" />
     <Content Include="stylesheets\contact.css" />
     <Content Include="stylesheets\classes.css" />
@@ -102,6 +108,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\Admin.webp" />
+    <Content Include="images\Sales-Missouri.webp" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
