@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="images\220px-Tom_Lester.jpg" />
     <Content Include="images\Admin-Assistant.jpg" />
+    <Content Include="images\Admin-Dir.jpeg" />
     <Content Include="images\BBF Logo.PNG" />
     <Content Include="images\Bobby Water.jpeg" />
     <Content Include="images\butcher no face.jfif" />
@@ -85,6 +86,7 @@
     <Content Include="images\green acres cast.jpg" />
     <Content Include="images\green-acres-tv-show-eddie-albert-eva_pig.jpg" />
     <Content Include="images\irrigation-systems-vegetable-garden.jpg" />
+    <Content Include="images\Lead-Tech.jpg" />
     <Content Include="images\livestock with vet.jpg" />
     <Content Include="images\Operations-Lead.jpg" />
     <Content Include="images\Orchard.jpg" />
@@ -92,6 +94,7 @@
     <Content Include="images\repairing-old-tractor-4989860.jpg" />
     <Content Include="images\Sales - Kansas.jpg" />
     <Content Include="images\Sales-Lead.jpg" />
+    <Content Include="images\Sales-Missouri.jpg" />
     <Content Include="js\jquery.js" />
     <Content Include="stylesheets\contact.css" />
     <Content Include="stylesheets\classes.css" />
