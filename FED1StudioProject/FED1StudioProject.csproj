@@ -77,6 +77,7 @@
     <Content Include="images\cows.jpg" />
     <Content Include="images\eddie albert tomatoes.jpg" />
     <Content Include="images\eddie tractor.jpg" />
+    <Content Include="images\Eva GaborHS.jpg" />
     <Content Include="images\Eva_Gabor.jpg" />
     <Content Include="images\gma gardener.jpg" />
     <Content Include="images\green acres cast.jpg" />
@@ -85,6 +86,7 @@
     <Content Include="images\livestock with vet.jpg" />
     <Content Include="images\Orchard.jpg" />
     <Content Include="images\repairing-old-tractor-4989860.jpg" />
+    <Content Include="js\jquery.js" />
     <Content Include="stylesheets\contact.css" />
     <Content Include="stylesheets\classes.css" />
     <Content Include="Classes.html" />

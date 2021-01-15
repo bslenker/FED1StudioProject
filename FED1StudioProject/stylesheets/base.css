@@ -376,3 +376,29 @@ tfoot {
     color: white;
     font-weight: bold;
 }
+/*****THIS CODE IS FOR LIGHTBOX*****/
+
+.thumb {
+    cursor: pointer;
+}
+
+#lightbox-container {
+    position: fixed; /*Fixed posistion meand you are moving element in relation to entire view port*/
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, .8);
+    text-align: center;
+    padding-top: 65px;
+    display: none;
+}
+
+    #lightbox-container p {
+        color: #fff;
+    }
+
+#lightbox-content img {
+    border: 10px solid gray;
+    margin: auto;
+}
