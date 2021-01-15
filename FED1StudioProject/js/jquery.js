@@ -1,4 +1,4 @@
-﻿///<reference path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"/>
+﻿//<reference path="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"/>
 
 
 $(function () {
@@ -21,3 +21,16 @@ $(function () {
 
     });
 })
+
+//1. Create a new date in a variable
+let currentYear = new Date().getFullYear();//empty constructor which defaults to todays date
+//var year = document.getFullYear();
+
+//2. Get the year part of the day
+console.log(currentYear + "-- Current Year");
+
+let copyright = document.getElementById("copyright");
+//in the variable called copyright we have all information about the span element, not just 
+//not just the content it contains
+//4.Inject the date into the element
+copyright.textContent = `${currentYear} -BEN SLENKER`;
