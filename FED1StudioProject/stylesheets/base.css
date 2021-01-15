@@ -131,6 +131,7 @@ ul#horizontalList {
         text-decoration: none;
     }
 
+    /**** TEAMS PAGE ****/
 #teamLeftColumn {
     width: 77%;
     border-right: 2px solid black;
@@ -194,6 +195,8 @@ ul#horizontalList {
         padding-right: 12px;
     }
 
+
+/**** INDEX PAGE ****/
 .indexAbout h2 {
     text-decoration: underline;
 }
@@ -264,6 +267,8 @@ ul#horizontalList {
     text-align: center;
 }
 
+/**** CLASSES PAGE ****/
+
 .cardSet {
     display:grid;
     margin:auto;
@@ -324,7 +329,7 @@ tfoot {
 }
 /****Admin Side Nav****/
 .sidenav {
-    height: 100%;
+    height: 90%;
     width: 0; /*how we hide it from view*/
     position: fixed;
     z-index: 1030; /*how elements are layered on eachother on the screen. to make sure it hidden give it a low z-index like 0 or even a neg numb*/
@@ -377,7 +382,7 @@ tfoot {
     color: white;
     font-weight: bold;
 }
-/*****THIS CODE IS FOR LIGHTBOX*****/
+/*****THIS CODE IS FOR LIGHTBOX on TEAMS PAGE*****/
 
 .thumb {
     cursor: pointer;
@@ -402,4 +407,12 @@ tfoot {
 #lightbox-content img {
     border: 10px solid gray;
     margin: auto;
+}
+
+/***** Return to top Link****/
+#to-top {
+    font-weight: bold;
+    background-color: white;
+    padding:6px;
+
 }
