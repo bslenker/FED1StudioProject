@@ -258,6 +258,8 @@ ul#horizontalList {
  margin-bottom: 15px;
  margin-left: 15px;
     float: left;
+    width:45%;
+    height:50%;
 }
 
 .clear {
